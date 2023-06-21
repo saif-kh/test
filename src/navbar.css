@@ -1,0 +1,36 @@
+.navbar {
+  background-color: white;
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 3.5rem;
+  padding-inline: 1.5rem;
+  position: sticky;
+  top: 0;
+}
+
+.nav-options > a {
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+.nav-options > a + a {
+  margin-left: 0.7rem;
+}
+
+.icon-holder {
+  display: flex;
+  position: relative;
+  cursor: pointer;
+}
+
+.icon-holder > .notif {
+  width: 0.9rem;
+  aspect-ratio: 1;
+  border-radius: 10rem;
+  background-color: orangered;
+  position: absolute;
+  top: -0.2rem;
+  right: -0.2rem;
+}
